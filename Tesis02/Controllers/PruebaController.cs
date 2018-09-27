@@ -8,12 +8,12 @@ namespace Tesis02.Controllers
 {
     public class PruebaController : Controller
     {
+
         // GET: Prueba
         public ActionResult Index()
         {
             localhost DBprueba = new localhost();
             return View(DBprueba.usuarioset);
-
         }
     }
 }
