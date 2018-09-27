@@ -13,6 +13,7 @@ namespace Tesis02.Controllers
         {
             localhost DBprueba = new localhost();
             return View(DBprueba.usuarioset);
+
         }
     }
 }
