@@ -11,7 +11,8 @@ namespace Tesis02.Controllers
         // GET: Prueba
         public ActionResult Index()
         {
-            return View();
+            localhost DBprueba = new localhost();
+            return View(DBprueba.usuarioset);
         }
     }
 }
